@@ -16,7 +16,7 @@ const features = [
             {features.map((feature, idx) => (
               <div
                 key={idx}
-                className="bg-white p-8 py-28 rounded-xl shadow transition-all duration-300 hover:bg-[#001e60] hover:text-white flex flex-col justify-between min-h-[250px]"
+                className="bg-white px-8 py-24 rounded-xl shadow transition-all duration-300 hover:bg-[#001e60] hover:text-white flex flex-col justify-between min-h-[250px]"
               >
                 <div>
                   <h3 className="text-xl font-semibold mb-4">{feature.title}</h3>
