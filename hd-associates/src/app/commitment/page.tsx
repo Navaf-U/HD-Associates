@@ -1,4 +1,4 @@
-import OurCommitment from '@/components/Commitment'
+import OurCommitment from '../../components/Commitment'
 import React from 'react'
 
 function page() {
