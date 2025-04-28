@@ -5,7 +5,7 @@ import Link from 'next/link'
 export default function Navbar() {
     return (
         <nav className="fixed flex h-24 items-center top-0 left-0 w-full bg-white text-[#000000c5] shadow-md z-50">
-            <Image width={100} height={100} src={'/assets/logo.png'} className="text-xl font-bold w-18 h-18 ms-10" alt='logo' />
+            <Link href={'/'}><Image width={100} height={100} src={'/assets/logo.png'} className="text-xl font-bold w-18 h-18 ms-10" alt='logo' /></Link>
             <div className="max-w-7xl mx-auto px-4 py-3 flex justify-center items-center">
                 <div className="flex gap-6">
                     <Link href="/" className="hover:text-blue-500">Home</Link>
