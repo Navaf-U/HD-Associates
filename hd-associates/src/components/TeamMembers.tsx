@@ -46,8 +46,8 @@ const team = [
           <h2 className="text-3xl font-bold mb-12 text-center">Team Members</h2>
           <div className="grid md:grid-cols-2 lg:grid-cols-2 gap-8">
             {team.map((member, idx) => (
-              <div key={idx} className="bg-white p-6 rounded shadow hover:shadow-lg transition flex items-start">
-                <div className="flex-shrink-0 mr-4">
+              <div key={idx} className="bg-white p-6 rounded shadow hover:shadow-lg transition flex flex-col md:flex-row items-start">
+                <div className="flex-shrink-0 mr-4 ">
                   <Image src={member.img} width={300} height={300} alt={member.name} className="w-44 h-44 object-cover rounded-full" />
                 </div>
                 <div>
